@@ -1,0 +1,8 @@
+---
+
+root_mariadb_password: "root"
+mysql_user: "marvin"
+mysql_password: ""
+mysql_dbname: "dbmarvinform"
+db_host: "10.0.0.168"
+webserver_host: "10.0.0.168"
