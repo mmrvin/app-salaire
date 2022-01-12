@@ -1,0 +1,8 @@
+---
+- name: prerequis pour tous les hôtes
+  hosts: web
+
+  remote_user: root
+
+  roles:
+    - prerequis

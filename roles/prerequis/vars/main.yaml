@@ -1,0 +1,30 @@
+---
+
+pkg:
+  - vim
+  - php
+  - php-mysql
+  - httpd
+
+username:
+  - marvin
+
+
+db_host:
+  - 10.0.0.168
+
+mysql_dbname:
+  - db.marvin.form
+
+mysql_user:
+  - marvin
+
+mysql_password:
+  - 
+
+root_mariadb_password: "root"
+mysql_user: "marvin"
+mysql_password: ""
+mysql_dbname: "dbmarvinform"
+db_host: "10.0.0.168"
+webserver_host: "10.0.0.168"
