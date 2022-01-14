@@ -9,18 +9,19 @@ Votre mission est alors la mise en œuvre d'un Pipeline Jenkins depuis d'un dép
 
 
 Vous devez alors fournir :
-Un dépôt GIT nommé : app-salaire.
-Ce dernier doit contenir : Le fichier Jenkins de pipeline, les rôles Ansible. (Rôles Apache, php, mariadb) et le code php. ET toute la procédure documentée en format PDF
 
-Vous trouverez le code PHP à l'URL suivante : https://github.com/ludovic-tech/app-php
+    - Un dépôt GIT nommé : app-salaire.
+        Ce dernier doit contenir : 
+            - Le fichier Jenkins de pipeline, 
+            - les rôles Ansible (Rôles Apache, php, mariadb),
+            - le code php (https://github.com/ludovic-tech/app-php),
+            - la procédure documentée en format PDF.
+
+
+Application Web : web.votre- prenom.form.
+Serveur de BDD : db.votre-prenom.form.
+
+
 L'environnement du client est sous Linux CentOS 7.
-
-L'application Web, php s'exécute sur un serveur nommé : web.votre- prenom.form.
-
-Le serveur de base de données est nommé : db.votre-prenom.form.
-
 Le déploiement de l'application avec Ansible, utilise les noms de serveurs et non pas les adresses IP. 
 Le déploiement de l'application avec Ansible doit s'exécuter en tant qu'utilisateur non root.
-
-
-ET toute la procédure doit être documentée au format PDF.
