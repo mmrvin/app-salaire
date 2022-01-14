@@ -1,8 +1,0 @@
----
-
-  - name: Ajout du fichier php de la configuraion d'accès à la BDD
-    template:
-      src: "files/db-config.php.j2"
-      dest: /var/www/html/db-config.php
-    notify:
-     - restart_apache
